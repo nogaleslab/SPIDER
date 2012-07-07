@@ -1,6 +1,6 @@
 #!/bin/csh
 
-foreach file (*ef.box3)
+foreach file (*ef.box)
 
 set new=`echo $file | sed -e 's/ef.box3//'`
 

@@ -30,7 +30,7 @@ for line in file:
 	shy = int(shy1.strip(','))
 
 	enBox = ('%s.box' %(en))
-	efBox = ('%s.box3' %(ef))
+	efBox = ('%s.box' %(ef))
 	
 	test = os.path.exists(enBox)
 	
