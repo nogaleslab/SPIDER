@@ -30,7 +30,7 @@ for line in file:
 	shy = int(shy1.strip(','))
 
 	enBox = ('%s.box' %(en))
-	efBox = ('%s.box' %(ef))
+	efBox = ('%s.box' %(ef[:-5]))
 	
 	test = os.path.exists(enBox)
 	
@@ -57,8 +57,8 @@ for line in file:
 			
 			#if limit2 < enX < limit1 and limit2 < enY < limit1:
 						
-			efX = enX + shx
-			efY = enY + shy
+			efX = enX - shx
+			efY = enY - shy
 			
 			#	if limit2 < efX < limit1 and limit2 < efY < limit1:
 					
